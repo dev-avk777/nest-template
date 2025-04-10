@@ -43,10 +43,9 @@ const config = [
       '@typescript-eslint/no-explicit-any': 'warn',
       '@typescript-eslint/no-non-null-assertion': 'warn',
       '@typescript-eslint/consistent-type-imports': [
-        'error',
+        'warn',
         {
-          prefer: 'type-imports',
-          fixStyle: 'inline-type-imports',
+          prefer: 'no-type-imports',
         },
       ],
 
